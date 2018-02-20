@@ -15,8 +15,10 @@ namespace Assingment_2
             string[] months = { "September", "October", "November", "December", "January", "Febuary", "March", "April", "May" };
             int[] gradePrice = { 80, 60 };
 
+            //  Welcome Message
             Console.WriteLine("This program will output a coupon containing the grade number, the classroom number, the month, and the amount of tuition due.");
 
+            //  Output Loop
             int monthCount = 1;
             foreach (string month in months)
             {
